@@ -14,12 +14,14 @@ body {
   background-image: linear-gradient(black, black), url("https://images.unsplash.com/photo-1608805604516-f061fdc14193?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2564&q=80");
   background-size: 200%;
   background-blend-mode: saturation;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
   width: 100vw;
   height: 10vh;
   overflow: hidden;
+  background-color: #1a1a1a;
 }
 
 nav {
@@ -54,13 +56,13 @@ a img {
   height: 60%;
 }
 
-.share {
+.share-btn {
   height: 40%;
 }
 
 .chat {
   width: 95%;
-  height: 95%;
+  height: 87%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -72,8 +74,9 @@ a img {
           align-items: center;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-bottom-left-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
   border: 1px solid rgba(209, 213, 219, 0.3);
 }
 
@@ -83,12 +86,42 @@ a img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.info {
+  height: 8%;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.info a {
+  font-weight: 300;
+  color: #1a1a1a;
 }
 
 footer {
