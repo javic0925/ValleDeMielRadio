@@ -4,7 +4,7 @@ shareBtn.addEventListener('click', () => {
     if (navigator.share) {
       navigator.share({
         title: 'Valle De Miel Radio',
-        text: 'Desde Guatemala, Valle De Miel Radio',
+        text: 'Desde Guatemala Valle De Miel Radio te trae la mejor musica y ambiente completamente gratis',
         url: window.location.href
       }).then(() => {
         console.log('Thanks for sharing!');
