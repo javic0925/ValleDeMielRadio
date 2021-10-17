@@ -42,7 +42,9 @@ a {
   background-color: rgba(255, 255, 255, 0.3);
   border-bottom-left-radius: 1.2rem;
   border-bottom-right-radius: 1.2rem;
-  border: 1px solid rgba(209, 213, 219, 0.3);
+  border-left: 1px solid rgba(209, 213, 219, 0.3);
+  border-right: 1px solid rgba(209, 213, 219, 0.3);
+  border-bottom: 1px solid rgba(209, 213, 219, 0.3);
 }
 
 .main {
@@ -65,7 +67,9 @@ a {
   background-color: rgba(255, 255, 255, 0.3);
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
-  border: 1px solid rgba(209, 213, 219, 0.3);
+  border-left: 1px solid rgba(209, 213, 219, 0.3);
+  border-right: 1px solid rgba(209, 213, 219, 0.3);
+  border-top: 1px solid rgba(209, 213, 219, 0.3);
 
   a {
     font-weight: 300;
