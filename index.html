@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Valle De Miel | Radio</title>
+    <meta name="description" content="A simple HTML5 online radio">
+    <meta name="author" content="JaviC Dev">
+
+    <meta property="og:title" content="Online Radio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:description" content="Desde Guatemala Valle De Miel Radio te trae la mejor musica y programacion completamente gratis.">
+    <meta property="og:image" content="image.png">
+
+    <link rel="icon" href="./assets/fav/favicon.ico">
+    <link rel="icon" href="#" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./assets/fav/apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.9/plyr.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+
+<body>
+    <header>
+        
+        <nav>
+            <a href="#"><img src="./assets/fav/android-chrome-512x512.png" alt="Logo"></a>
+            
+            <a href="#"><img class="share" src="./assets/iconmonstr-share-thin-240.png" alt=""></a>
+            
+        </nav>
+    </header>
+    <section class="main">
+    </section>
+    <footer>
+        <audio id="player" controls>
+            <source src="http://stream.zeno.fm/u12pxt46y98uv" type="audio/mp3" />
+          </audio>
+    </footer>
+    <!-- your content here... -->
+    <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
+    <script>
+        const player = new Plyr('#player', {
+            controls: ['play', 'progress', 'airplay', 'volume' ],
+        
+        });
+      </script>
+    
+    
+    
+</body>
+
+</html>
